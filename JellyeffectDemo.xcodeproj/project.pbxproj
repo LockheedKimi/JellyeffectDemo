@@ -15,6 +15,7 @@
 		F01EA6811CCDF4A50013F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01EA67F1CCDF4A50013F2FE /* LaunchScreen.storyboard */; };
 		F01EA68C1CCDF4A60013F2FE /* JellyeffectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EA68B1CCDF4A60013F2FE /* JellyeffectDemoTests.m */; };
 		F01EA6971CCDF4A60013F2FE /* JellyeffectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EA6961CCDF4A60013F2FE /* JellyeffectDemoUITests.m */; };
+		F01EA6AC1CCDF5570013F2FE /* UIScrollView+ScalableCover.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EA6AB1CCDF5570013F2FE /* UIScrollView+ScalableCover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F01EA6921CCDF4A60013F2FE /* JellyeffectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyeffectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01EA6961CCDF4A60013F2FE /* JellyeffectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JellyeffectDemoUITests.m; sourceTree = "<group>"; };
 		F01EA6981CCDF4A60013F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01EA6AA1CCDF5570013F2FE /* UIScrollView+ScalableCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScalableCover.h"; sourceTree = "<group>"; };
+		F01EA6AB1CCDF5570013F2FE /* UIScrollView+ScalableCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScalableCover.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		F01EA6651CCDF4A50013F2FE = {
 			isa = PBXGroup;
 			children = (
+				F01EA6AA1CCDF5570013F2FE /* UIScrollView+ScalableCover.h */,
+				F01EA6AB1CCDF5570013F2FE /* UIScrollView+ScalableCover.m */,
 				F01EA6701CCDF4A50013F2FE /* JellyeffectDemo */,
 				F01EA68A1CCDF4A60013F2FE /* JellyeffectDemoTests */,
 				F01EA6951CCDF4A60013F2FE /* JellyeffectDemoUITests */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01EA6AC1CCDF5570013F2FE /* UIScrollView+ScalableCover.m in Sources */,
 				F01EA6791CCDF4A50013F2FE /* ViewController.m in Sources */,
 				F01EA6761CCDF4A50013F2FE /* AppDelegate.m in Sources */,
 				F01EA6731CCDF4A50013F2FE /* main.m in Sources */,
